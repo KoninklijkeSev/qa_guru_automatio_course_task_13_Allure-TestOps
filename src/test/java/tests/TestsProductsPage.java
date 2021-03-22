@@ -60,6 +60,7 @@ public class TestsProductsPage extends BaseClass {
     }
 
     @Test
+    @Disabled
     @Tag("functional")
     @DisplayName("Check to open digital products")
     void checkToOpenProductsPageDigitalProducts() {
