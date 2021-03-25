@@ -34,6 +34,7 @@ public class TestsTechnologiesPage extends BaseClass {
     }
 
     @Test
+    @Disabled
     @Tag("functional")
     @DisplayName("Check to open technologies page with materials")
     void checkToOpenTechnologiesPageWithMaterials() {

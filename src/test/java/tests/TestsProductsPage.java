@@ -55,7 +55,7 @@ public class TestsProductsPage extends BaseClass {
         });
 
         step("Check open page about the arrival van", () -> {
-            $(".eqrrvD.sc-1ffldrv-1").shouldHave(text("We’ve re-thought commercial cargo vehicles."));
+            $(".cgFtLf.sc-1xylrd1-3").shouldHave(text("As city populations increase and our consumer habits evolve"));
         });
     }
 
