@@ -25,7 +25,7 @@ public class TestsMainPage extends BaseClass {
         });
 
         step("Check that main page is open", () -> {
-            $("#__next").shouldHave(text("Zero-emission mobility\n" + "solutions for your city."));
+            $("#__next").shouldHave(text("Now proudly Nasdaq listed"));
         });
     }
 
